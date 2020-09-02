@@ -1,0 +1,3 @@
+# CompareSpeciesLists
+
+This script was made at the request of Gemma Langridge (QIB) who wanted a script which could identify the overlap between two large lists of species. CompareSpeciesLists.py was originally written to compare species lists of species in two text files. The script will look out for whether a genus has only been specified (i.e. Geobacillus sp.) and checks if there are species under the given genus in the other list. The output is a text file called "Compared_List.txt" and will overwrite or append a file of the same name.
